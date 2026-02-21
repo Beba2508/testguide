@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Majestic Villa Lidija — Guest Guide by Irundo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="https://irundo.com" target="_blank" class="logo-link">
+      <img src="https://irundo.com/wp-content/themes/irundo/assets/logo.svg" alt="Irundo" class="logo" />
+    </a>
+    <div class="header-right">
+      <span class="villa-label">Majestic Villa Lidija</span>
+      <a href="https://wa.link/wfkfzx" target="_blank" class="header-wa" aria-label="WhatsApp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+    <img src="https://irundo.com/wp-content/uploads/2025/02/Lidija-1050-scaled-1.jpg" alt="Villa Lidija" class="hero-img" />
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow" data-i18n="hero_eyebrow">Welcome to</p>
+    <h1 class="hero-title">Majestic Villa Lidija</h1>
+    <p class="hero-sub" data-i18n="hero_sub">Your private sanctuary above Dubrovnik</p>
+    <div class="hero-chips">
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> <span data-i18n="checkin_chip">Check-in from 16:00</span></span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> <span data-i18n="checkout_chip">Check-out by 10:00</span></span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"/></svg> <span data-i18n="wifi_chip">WiFi: lidija2023</span></span>
+    </div>
+    <a href="#nav" class="hero-cta" data-i18n="hero_cta">Explore the Guide</a>
+  </div>
+</section>
+
+<!-- STICKY NAV -->
+<nav class="sticky-nav" id="nav">
+  <div class="nav-inner">
+    <button class="nav-item active" data-section="arrival" data-i18n="nav_arrival">Arrival</button>
+    <button class="nav-item" data-section="villa" data-i18n="nav_villa">The Villa</button>
+    <button class="nav-item" data-section="guide" data-i18n="nav_guide">Guide</button>
+    <button class="nav-item" data-section="addons" data-i18n="nav_addons">Add-ons</button>
+    <button class="nav-item" data-section="local" data-i18n="nav_local">Dubrovnik</button>
+    <button class="nav-item" data-section="contact" data-i18n="nav_contact">Contact</button>
+    <button class="nav-item" data-section="departure" data-i18n="nav_departure">Departure</button>
+  </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main>
+
+  <!-- ARRIVAL -->
+  <section class="content-section" id="arrival">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <h2 data-i18n="arrival_title">Arrival & Access</h2>
+    </div>
+    <div class="cards-grid">
+
+      <div class="card card-accent">
+        <div class="card-icon">📍</div>
+        <h3 data-i18n="address_title">Address</h3>
+        <p class="card-main">Pelješka ulica 2A<br>20000 Dubrovnik, Croatia</p>
+        <a href="https://maps.app.goo.gl/HwwhXH5WDEonfeau5" target="_blank" class="card-link" data-i18n="view_map">View on Google Maps →</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🕓</div>
+        <h3 data-i18n="checkinout_title">Check-in & Check-out</h3>
+        <div class="time-row">
+          <div class="time-block">
+            <span class="time-label" data-i18n="checkin_label">Check-in</span>
+            <span class="time-value">16:00 – 21:00</span>
+          </div>
+          <div class="time-divider"></div>
+          <div class="time-block">
+            <span class="time-label" data-i18n="checkout_label">Check-out</span>
+            <span class="time-value">by 10:00</span>
+          </div>
+        </div>
+        <p class="card-note" data-i18n="checkin_note">Please inform your host of your expected arrival time so she can welcome you personally.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🚪</div>
+        <h3 data-i18n="access_title">Entrance</h3>
+        <p data-i18n="access_desc">The entrance gate has a keypad on the right side. Your personal entry code will be sent to you by your host on the day of arrival.</p>
+        <div class="info-badge" data-i18n="access_badge">Code sent on arrival day</div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🅿️</div>
+        <h3 data-i18n="parking_title">Parking</h3>
+        <p data-i18n="parking_desc">Parking is available at <strong>Best in Parking — Garaža Ilijina glavica</strong>, approximately 10 minutes walk from the villa along a flat route.</p>
+        <a href="https://maps.app.goo.gl/U37wpWZGfVKJZLZ87" target="_blank" class="card-link" data-i18n="parking_link">Get directions to parking →</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🧳</div>
+        <h3 data-i18n="luggage_title">Getting to the Villa</h3>
+        <p data-i18n="luggage_desc">The villa is located in a residential zone not accessible by car. The nearest drop-off point is a short walk away. If you need help with luggage, porter service is available — just let us know in advance.</p>
+        <a href="https://maps.app.goo.gl/U37wpWZGfVKJZLZ87" target="_blank" class="card-link" data-i18n="dropoff_link">View drop-off point →</a>
+      </div>
+
+      <div class="card card-host">
+        <div class="host-avatar">D</div>
+        <div>
+          <h3 data-i18n="host_title">Your Host</h3>
+          <p class="host-name">Daniela</p>
+          <p class="card-note" data-i18n="host_desc">Daniela is your dedicated contact throughout your stay, available on WhatsApp until 23:00 daily.</p>
+          <a href="tel:[DANIELA_PHONE]" class="card-link">[DANIELA_PHONE]</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- THE VILLA -->
+  <section class="content-section alt-section" id="villa">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2 data-i18n="villa_title">The Villa</h2>
+    </div>
+    <div class="villa-intro">
+      <div class="villa-gallery">
+        <img src="https://irundo.com/wp-content/uploads/2025/02/Lidija-1016-scaled-1.jpg" alt="Villa pool" class="gallery-main" />
+        <div class="gallery-side">
+          <img src="https://irundo.com/wp-content/uploads/2025/02/Lidija-1028-scaled-1.jpg" alt="Interior" />
+          <img src="https://irundo.com/wp-content/uploads/2025/02/VillaLidija-135-scaled-1.jpg" alt="Bedroom" />
+        </div>
+      </div>
+      <div class="villa-text">
+        <p class="villa-desc" data-i18n="villa_desc">Set just minutes from Dubrovnik's UNESCO-listed Old Town, Majestic Villa Lidija is a 360m² private retreat spread across three floors, offering sweeping views of the Adriatic, the islands, and the medieval city walls.</p>
+        <div class="feature-grid">
+          <div class="feature-item">
+            <span class="feature-icon">🛏</span>
+            <span data-i18n="feat_beds">3 en-suite bedrooms</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">👥</span>
+            <span data-i18n="feat_guests">Up to 6 guests</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">♾️</span>
+            <span data-i18n="feat_pool">Heated infinity pool</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🧖</span>
+            <span data-i18n="feat_sauna">Sauna (master suite)</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🏋️</span>
+            <span data-i18n="feat_gym">Private gym</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🌊</span>
+            <span data-i18n="feat_view">Sea & city views</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🍽</span>
+            <span data-i18n="feat_kitchen">Fully equipped kitchen</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">📺</span>
+            <span data-i18n="feat_tv">Smart TV in every room</span>
+          </div>
+        </div>
+        <a href="https://irundo.com/apartman/majestic-villa-lidija/" target="_blank" class="btn-outline" data-i18n="villa_irundo_link">View on irundo.com →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- VILLA GUIDE -->
+  <section class="content-section" id="guide">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2 data-i18n="guide_title">Villa Guide</h2>
+    </div>
+
+    <div class="accordion-group">
+
+      <div class="accordion-item">
+        <button class="accordion-trigger">
+          <span class="acc-icon">🌡️</span>
+          <span data-i18n="acc_climate">Climate & Comfort</span>
+          <svg class="acc-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="accordion-body">
+          <div class="acc-grid">
+            <div class="acc-item">
+              <h4 data-i18n="cooling_title">Air Conditioning</h4>
+              <p data-i18n="cooling_desc">Ceiling air conditioners in every room, controlled via the TOSHIBA thermostat on the wall. Use the power button and adjust temperature with + / – buttons.</p>
+            </div>
+            <div class="acc-item">
+              <h4 data-i18n="heating_title">Floor Heating</h4>
+              <p data-i18n="heating_desc">Each room has its own floor heating thermostat on the wall — a dial that shows the current temperature. Turn the dial to set your preferred warmth.</p>
+            </div>
+            <div class="acc-item">
+              <h4 data-i18n="water_title">Hot Water</h4>
+              <p data-i18n="water_desc">Unlimited hot water from the boiler in the basement storage room (behind the gym). Tap water is safe to drink.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-trigger">
+          <span class="acc-icon">📶</span>
+          <span data-i18n="acc_tech">Technology</span>
+          <svg class="acc-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="accordion-body">
+          <div class="acc-grid">
+            <div class="acc-item">
+              <h4 data-i18n="wifi_title">Wi-Fi</h4>
+              <p data-i18n="wifi_detail">Network boosters are placed throughout the villa for full coverage.</p>
+              <div class="wifi-box">
+                <div><span class="wifi-label" data-i18n="wifi_network">Network</span><strong>Villa Lidija</strong></div>
+                <div><span class="wifi-label" data-i18n="wifi_password">Password</span><strong>lidija2023</strong></div>
+              </div>
+            </div>
+            <div class="acc-item">
+              <h4 data-i18n="tv_title">Smart TV</h4>
+              <p data-i18n="tv_desc">Smart TVs in the living room and all three bedrooms. Press the Home button on the remote to access apps and streaming services.</p>
+            </div>
+            <div class="acc-item">
+              <h4 data-i18n="blinds_title">Roof Blinds</h4>
+              <p data-i18n="blinds_desc">Scan the QR code on the remote control, then select the direction of movement using the remote device.</p>
+            </div>
+            <div class="acc-item">
+              <h4 data-i18n="intercom_title">Intercom</h4>
+              <p data-i18n="intercom_desc">Touchscreen intercom at the entrance. Use it to communicate with visitors at the gate.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-trigger">
+          <span class="acc-icon">♾️</span>
+          <span data-i18n="acc_pool">Pool & Sauna</span>
+          <svg class="acc-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="accordion-body">
+          <div class="acc-grid">
+            <div class="acc-item">
+              <h4 data-i18n="pool_title">Infinity Pool</h4>
+              <p data-i18n="pool_desc">The heated infinity pool is cleaned once a week. If you'd like additional cleaning during your stay, just ask — no extra charge. Please supervise children at all times near the pool.</p>
+            </div>
+            <div class="acc-item">
+              <h4 data-i18n="sauna_title">Sauna</h4>
+              <p data-i18n="sauna_desc">Located in the top-floor master bedroom. Turn on using the switch outside the sauna door. We recommend a short shower before use, stay well hydrated, and limit sessions to 10–15 minutes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-trigger">
+          <span class="acc-icon">🍳</span>
+          <span data-i18n="acc_kitchen">Kitchen & Appliances</span>
+          <svg class="acc-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="accordion-body">
+          <div class="acc-grid">
+            <div class="acc-item">
+              <h4 data-i18n="oven_title">Oven</h4>
+              <p data-i18n="oven_desc">Bosch HRA574BB0. The kitchen is fully equipped with hob, oven, dishwasher, fridge/freezer, coffee machine and smoothie maker.</p>
+              <a href="https://manuall.co.uk/bosch-hra574bb0-oven/" target="_blank" class="card-link" data-i18n="oven_manual">Oven manual →</a>
+            </div>
+            <div class="acc-item">
+              <h4 data-i18n="washer_title">Washing Machine & Dryer</h4>
+              <p data-i18n="washer_desc">Separate washer and dryer in the basement storage room (with the gym). There is also an additional washing machine in the villa.</p>
+              <a href="https://www.winnings.com.au/public/manuals/WGA244U0AU-Bosch-User-Manual.pdf" target="_blank" class="card-link" data-i18n="washer_manual">Washer manual →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ADD-ONS -->
+  <section class="content-section alt-section" id="addons">
+    <div class="section-header">
+      <span class="section-number">04</span>
+      <h2 data-i18n="addons_title">Add-ons & Experiences</h2>
+      <p class="section-sub" data-i18n="addons_sub">Enhance your stay. Submit a request and we'll arrange everything.</p>
+    </div>
+
+    <div class="addons-layout">
+      <div class="addons-services">
+        <div class="service-card" data-service="Private Chef Experience">
+          <span class="service-icon">👨‍🍳</span>
+          <span data-i18n="addon_chef">Private Chef Experience</span>
+        </div>
+        <div class="service-card" data-service="Grocery Pre-Stocking">
+          <span class="service-icon">🛒</span>
+          <span data-i18n="addon_grocery">Grocery Pre-Stocking</span>
+        </div>
+        <div class="service-card" data-service="Airport Transfer">
+          <span class="service-icon">🚘</span>
+          <span data-i18n="addon_transfer">Airport Transfer</span>
+        </div>
+        <div class="service-card" data-service="Additional Cleaning">
+          <span class="service-icon">✨</span>
+          <span data-i18n="addon_cleaning">Additional Cleaning</span>
+        </div>
+        <div class="service-card" data-service="Wine Tasting / Sommelier">
+          <span class="service-icon">🍷</span>
+          <span data-i18n="addon_wine">Wine & Sommelier</span>
+        </div>
+        <div class="service-card" data-service="Private Boat Day Trip">
+          <span class="service-icon">⛵</span>
+          <span data-i18n="addon_boat">Private Boat Trip</span>
+        </div>
+      </div>
+
+      <div class="addons-form-wrap">
+        <form class="addon-form" id="addonForm">
+          <h3 data-i18n="form_title">Request a Service</h3>
+          <div class="selected-service-display" id="selectedServiceDisplay" data-i18n="form_select_hint">Select a service from the left, or describe your request below.</div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label data-i18n="form_name">Full Name</label>
+              <input type="text" name="name" required placeholder="John Smith" />
+            </div>
+            <div class="form-group">
+              <label data-i18n="form_email">Email</label>
+              <input type="email" name="email" required placeholder="john@example.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label data-i18n="form_date">Preferred Date & Time</label>
+            <input type="text" name="date" placeholder="e.g. July 14, 18:00" />
+          </div>
+          <div class="form-group">
+            <label data-i18n="form_notes">Notes / Special Requests</label>
+            <textarea name="notes" rows="3" placeholder="Any details, dietary requirements, preferences..."></textarea>
+          </div>
+          <input type="hidden" name="service" id="hiddenService" />
+          <button type="submit" class="btn-primary" data-i18n="form_submit">Send Request</button>
+          <div class="form-success" id="formSuccess" data-i18n="form_success">✓ Request sent! We'll be in touch shortly.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCAL TIPS -->
+  <section class="content-section" id="local">
+    <div class="section-header">
+      <span class="section-number">05</span>
+      <h2 data-i18n="local_title">Explore Dubrovnik</h2>
+      <p class="section-sub" data-i18n="local_sub">Our favourite spots, handpicked for your stay.</p>
+    </div>
+
+    <div class="local-tabs">
+      <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="beaches" data-i18n="tab_beaches">Beaches</button>
+        <button class="tab-btn" data-tab="restaurants" data-i18n="tab_restaurants">Restaurants</button>
+        <button class="tab-btn" data-tab="sights" data-i18n="tab_sights">Sights</button>
+        <button class="tab-btn" data-tab="transport" data-i18n="tab_transport">Transport</button>
+      </div>
+
+      <div class="tab-content active" id="tab-beaches">
+        <div class="local-list">
+          <a href="https://maps.app.goo.gl/beachlink1" target="_blank" class="local-item">
+            <span class="local-emoji">🏖</span>
+            <div><strong data-i18n="beach1_name">Banje Beach</strong><span class="local-dist" data-i18n="beach1_dist">1.2 km — the closest beach with Old Town views</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="https://www.google.com/maps/search/Sveti+Jakov+Beach+Dubrovnik" target="_blank" class="local-item">
+            <span class="local-emoji">🏖</span>
+            <div><strong data-i18n="beach2_name">Sveti Jakov Beach</strong><span class="local-dist" data-i18n="beach2_dist">2.1 km — secluded cove, accessible by steps</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="https://www.google.com/maps/search/Copacabana+Beach+Dubrovnik" target="_blank" class="local-item">
+            <span class="local-emoji">🏖</span>
+            <div><strong data-i18n="beach3_name">Copacabana Beach</strong><span class="local-dist" data-i18n="beach3_dist">3.5 km — great for families, water sports</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="tab-content" id="tab-restaurants">
+        <div class="local-list">
+          <a href="https://www.google.com/maps/search/Nautika+Restaurant+Dubrovnik" target="_blank" class="local-item">
+            <span class="local-emoji">🍽</span>
+            <div><strong data-i18n="rest1_name">Restaurant Nautika</strong><span class="local-dist" data-i18n="rest1_desc">Fine dining, terrace with sea views</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="https://www.google.com/maps/search/Restaurant+360+Dubrovnik" target="_blank" class="local-item">
+            <span class="local-emoji">⭐</span>
+            <div><strong data-i18n="rest2_name">Restaurant 360°</strong><span class="local-dist" data-i18n="rest2_desc">Michelin-starred, on the city walls</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="https://www.google.com/maps/search/Proto+restaurant+Dubrovnik" target="_blank" class="local-item">
+            <span class="local-emoji">🐟</span>
+            <div><strong data-i18n="rest3_name">Proto</strong><span class="local-dist" data-i18n="rest3_desc">Seafood institution in the Old Town</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="https://www.google.com/maps/search/supermarket+Dubrovnik" target="_blank" class="local-item">
+            <span class="local-emoji">🛒</span>
+            <div><strong data-i18n="rest4_name">Konzum & Tommy</strong><span class="local-dist" data-i18n="rest4_desc">Nearest supermarkets, 0.8–1.2 km</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="tab-content" id="tab-sights">
+        <div class="local-list">
+          <a href="https://maps.app.goo.gl/oldtown" target="_blank" class="local-item">
+            <span class="local-emoji">🏰</span>
+            <div><strong data-i18n="sight1_name">Old Town Walls</strong><span class="local-dist" data-i18n="sight1_desc">2.5 km — UNESCO-listed city walls walk</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="https://www.google.com/maps/search/Fort+Lovrijenac+Dubrovnik" target="_blank" class="local-item">
+            <span class="local-emoji">🏯</span>
+            <div><strong data-i18n="sight2_name">Fort Lovrijenac</strong><span class="local-dist" data-i18n="sight2_desc">3.0 km — the city's freestanding fortress</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="https://www.google.com/maps/search/Cable+Car+Srd+Dubrovnik" target="_blank" class="local-item">
+            <span class="local-emoji">🚡</span>
+            <div><strong data-i18n="sight3_name">Cable Car Srđ</strong><span class="local-dist" data-i18n="sight3_desc">2.8 km — panoramic views over the entire city</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="tab-content" id="tab-transport">
+        <div class="local-list">
+          <a href="https://www.airport-dubrovnik.hr/en" target="_blank" class="local-item">
+            <span class="local-emoji">✈️</span>
+            <div><strong data-i18n="trans1_name">Dubrovnik Airport (DBV)</strong><span class="local-dist" data-i18n="trans1_desc">Official airport website & arrivals</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="https://ekotaxi.hr/en" target="_blank" class="local-item">
+            <span class="local-emoji">🚕</span>
+            <div><strong data-i18n="trans2_name">Eko Taxi</strong><span class="local-dist" data-i18n="trans2_desc">Reliable local taxi service</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="https://www.libertasdubrovnik.hr/" target="_blank" class="local-item">
+            <span class="local-emoji">🚌</span>
+            <div><strong data-i18n="trans3_name">Libertas Bus</strong><span class="local-dist" data-i18n="trans3_desc">Local bus routes around Dubrovnik</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="https://www.jadrolinija.hr/" target="_blank" class="local-item">
+            <span class="local-emoji">⛴</span>
+            <div><strong data-i18n="trans4_name">Jadrolinija Ferry</strong><span class="local-dist" data-i18n="trans4_desc">Ferry connections to nearby islands</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a href="https://luggagestoragedubrovnik.hr/" target="_blank" class="local-item">
+            <span class="local-emoji">🧳</span>
+            <div><strong data-i18n="trans5_name">Luggage Storage</strong><span class="local-dist" data-i18n="trans5_desc">Secure luggage storage in the city</span></div>
+            <svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="content-section alt-section" id="contact">
+    <div class="section-header">
+      <span class="section-number">06</span>
+      <h2 data-i18n="contact_title">Get in Touch</h2>
+      <p class="section-sub" data-i18n="contact_sub">We're here to make your stay perfect.</p>
+    </div>
+
+    <div class="contact-grid">
+      <a href="https://wa.link/wfkfzx" target="_blank" class="contact-card contact-wa">
+        <div class="contact-card-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <div>
+          <h3 data-i18n="contact_wa_title">WhatsApp</h3>
+          <p data-i18n="contact_wa_sub">Fastest response — message us directly</p>
+        </div>
+      </a>
+
+      <a href="tel:+385996246437" class="contact-card">
+        <div class="contact-card-icon">📞</div>
+        <div>
+          <h3 data-i18n="contact_call_title">Call Us</h3>
+          <p>+385 99 624 6437</p>
+        </div>
+      </a>
+
+      <a href="mailto:villas@irundo.com" class="contact-card">
+        <div class="contact-card-icon">✉️</div>
+        <div>
+          <h3 data-i18n="contact_email_title">Email</h3>
+          <p>villas@irundo.com</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="emergency-box">
+      <h3 data-i18n="emergency_title">🚨 Emergency Numbers</h3>
+      <div class="emergency-grid">
+        <a href="tel:112" class="emerg-item"><strong>112</strong><span data-i18n="emerg_eu">European Emergency</span></a>
+        <a href="tel:192" class="emerg-item"><strong>192</strong><span data-i18n="emerg_police">Police</span></a>
+        <a href="tel:193" class="emerg-item"><strong>193</strong><span data-i18n="emerg_fire">Fire</span></a>
+        <a href="tel:+38520431600" class="emerg-item"><strong>+385 20 431 600</strong><span data-i18n="emerg_hospital">Hospital Dubrovnik</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPARTURE -->
+  <section class="content-section" id="departure">
+    <div class="section-header">
+      <span class="section-number">07</span>
+      <h2 data-i18n="departure_title">Departure</h2>
+      <p class="section-sub" data-i18n="departure_sub">We hope you had an unforgettable stay.</p>
+    </div>
+
+    <div class="departure-checklist">
+      <div class="checklist-item">
+        <span class="check-icon">🕙</span>
+        <div>
+          <strong data-i18n="dep1_title">Check out by 10:00 AM</strong>
+          <p data-i18n="dep1_desc">Please contact Daniela the day before departure to confirm your check-out time.</p>
+        </div>
+      </div>
+      <div class="checklist-item">
+        <span class="check-icon">🔑</span>
+        <div>
+          <strong data-i18n="dep2_title">Keys & Access</strong>
+          <p data-i18n="dep2_desc">Leave all keys, remotes and access items in the villa before you leave.</p>
+        </div>
+      </div>
+      <div class="checklist-item">
+        <span class="check-icon">🧳</span>
+        <div>
+          <strong data-i18n="dep3_title">Luggage Storage</strong>
+          <p data-i18n="dep3_desc">Need to store bags after check-out? <a href="https://luggagestoragedubrovnik.hr/" target="_blank">Luggage storage</a> and porter service are available on request.</p>
+        </div>
+      </div>
+      <div class="checklist-item">
+        <span class="check-icon">⭐</span>
+        <div>
+          <strong data-i18n="dep4_title">Leave a Review</strong>
+          <p data-i18n="dep4_desc">Your feedback means the world to us. If you enjoyed your stay, please consider leaving a review on Booking.com or Airbnb.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="farewell-banner">
+      <img src="https://irundo.com/wp-content/uploads/2025/02/VillaLidija-149-scaled-1.jpg" alt="Villa farewell" />
+      <div class="farewell-text">
+        <p data-i18n="farewell_text">We hope Dubrovnik left a mark on your heart. We'd love to welcome you back.</p>
+        <a href="https://irundo.com/apartman/majestic-villa-lidija/" target="_blank" class="btn-outline btn-light" data-i18n="farewell_btn">Book your next stay →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="https://irundo.com" target="_blank">
+      <img src="https://irundo.com/wp-content/themes/irundo/assets/logo.svg" alt="Irundo" class="footer-logo" />
+    </a>
+    <p class="footer-text" data-i18n="footer_text">© 2025 Irundo · Majestic Villa Lidija · <a href="https://irundo.com" target="_blank">irundo.com</a></p>
+  </div>
+</footer>
+
+<script src="lang.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
