@@ -1,5 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+  // ─── LANGUAGE SWITCHER ────────────────────────────────────────────────────
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const lang = btn.dataset.lang;
+      document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      if (typeof applyTranslations === 'function') applyTranslations(lang);
+    });
+  });
+
+  // Sync active lang btn on load
+  const savedLang = localStorage.getItem('villa_lang') || 'en';
+  document.querySelectorAll('.lang-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.lang === savedLang);
+  });
+
   // ─── STICKY NAV ACTIVE STATE ON SCROLL ───────────────────────────────────
   const sections = document.querySelectorAll('.content-section');
   const navItems = document.querySelectorAll('.nav-item');
